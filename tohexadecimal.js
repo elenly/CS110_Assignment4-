@@ -1,5 +1,5 @@
 function toHexadecimal(number){
-    let arr = number;
+    let decimal = number;
     let dec = 0;
     let result = "";
     let letters = "ABCDEF";
@@ -8,15 +8,15 @@ function toHexadecimal(number){
         result = number;
     }
     else{
-    while(arr){
-        if(Math.floor(arr%16) < 10){
-            dec = Math.floor(arr%16);
+    while(decimal){
+        if(Math.floor(decimal%16) < 10){
+            dec = Math.floor(decimal%16);
             result = dec + result;
-            arr = Math.floor(arr/16);
+            decimal = Math.floor(decimal/16);
         }
         else {
-            result = letters[(arr%16)-10] + result;
-            arr = Math.floor(arr/16);
+            result = letters[(decimal%16)-10] + result;
+            decimal = Math.floor(decimal/16);
         }
       }
     }   
