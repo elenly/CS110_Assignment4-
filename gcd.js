@@ -1,5 +1,3 @@
-//num1 = 21;
-//num2 = 14;
 
 
 function GCD(num1, num2){
@@ -37,4 +35,7 @@ function GCD(num1, num2){
 }
 
 
-console.log(GCD(21,14))
+
+module.exports = {
+    GCD: GCD
+}
