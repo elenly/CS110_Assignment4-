@@ -7,7 +7,7 @@ function LCM(num1, num2){
     return lcm;
 }
 
-//console.log(LCM(num1, num2))
+
 module.exports = {
     LCM: LCM
 }
