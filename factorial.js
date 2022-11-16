@@ -11,6 +11,3 @@ function factorial(num){
 }
 
 console.log(factorial(num))
-//module.exports = {
-  //  factorial: factorial
-//}
