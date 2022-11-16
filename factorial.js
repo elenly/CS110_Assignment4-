@@ -1,4 +1,4 @@
-const num =5;
+
 
 function factorial(num){
     
@@ -10,4 +10,7 @@ function factorial(num){
     return factorial;
 }
 
-console.log(factorial(num))
+
+module.exports = {
+    factorial: factorial
+}
